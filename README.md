@@ -29,6 +29,8 @@ The model was developed as a two-stage hurdle Random Forest model:
 
 This application is intended for research and laboratory decision-support demonstration only. It is not a standalone diagnostic tool and should not replace confirmatory Bethesda assay testing or expert clinical interpretation.
 
+The file `data/example_input.csv` contains synthetic example data provided only to demonstrate the required input format. It does not contain real patient-level data.
+
 ## Citation
 
 Citation information will be added after publication.
