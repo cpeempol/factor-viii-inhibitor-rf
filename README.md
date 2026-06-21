@@ -11,11 +11,12 @@ The model was developed as a two-stage hurdle Random Forest model:
 | Parameter name | Description |
 |---|---|
 | `sex` | Patient sex |
-| `tage` | Patient age |
-| `PatientPTT` | Patient aPTT before mixing |
-| `mix1` | aPTT immediately after 1:1 mixing with normal pooled plasma |
-| `mix2` | aPTT after 2-hour incubation at 37°C |
-| `NPPPTT` | aPTT of normal pooled plasma |
+| `age` | Patient age |
+| `patient_aptt` | Patient aPTT before mixing |
+| `immediate_mix_aptt` | aPTT immediately after 1:1 mixing with normal pooled plasma |
+| `incubated_mix_aptt` | aPTT after 2-hour incubation at 37°C |
+| `normal_pooled_plasma_aptt` | aPTT of normal pooled plasma |
+| `factor_viii_inhibitor_bu` | Factor VIII inhibitor titer in Bethesda units |
 
 ## Output
 
